@@ -11,9 +11,4 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
-
-    protected void btn1_Click(object sender, EventArgs e)
-    {
-        Response.Redirect("C_BecomeAMember.aspx");
-    }
 }
