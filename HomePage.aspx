@@ -23,7 +23,7 @@
               <p style="color:#000">Students Opposing Substances, is a student-founded and student-driven non-profit organization that gives students the upper hand in 
             peer pressure related drug-use.</p>
               <p>
-                  <asp:Button CssClass="btn btn-warning btn-lg" ID="btn1" runat="server" Text="Become A Member" OnClick="btn1_Click" /></p>
+                  <asp:Button CssClass="btn btn-primary btn-lg" ID="btn1" runat="server" Text="Become A Member" OnClick="btn1_Click" /></p>
             </div>
           </div>--%>
 
@@ -48,7 +48,7 @@
               <p style="color:#000">Students Opposing Substances, is a student-founded and student-driven non-profit organization that gives students the upper hand in 
             peer pressure related drug-use.</p>
               <p>
-                  <asp:Button CssClass="btn btn-warning btn-lg" ID="btn1" runat="server" Text="Become A Member" OnClick="btn1_Click" /></p>
+                  <asp:Button CssClass="btn btn-primary btn-lg" ID="btn1" runat="server" Text="Become A Member" OnClick="btn1_Click" /></p>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
               <p style="color:#000">Students Opposing Substances, is a student-founded and student-driven non-profit organization that gives students the upper hand in 
             peer pressure related drug-use.</p>
               <p>
-                  <asp:Button CssClass="btn btn-warning btn-lg" ID="btn2" runat="server" Text="Become A Member" OnClick="btn1_Click" /></p>
+                  <asp:Button CssClass="btn btn-primary btn-lg" ID="btn2" runat="server" Text="Become A Member" OnClick="btn1_Click" /></p>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
               <p style="color:#000">Students Opposing Substances, is a student-founded and student-driven non-profit organization that gives students the upper hand in 
             peer pressure related drug-use.</p>
               <p>
-                  <asp:Button CssClass="btn btn-warning btn-lg" ID="btn3" runat="server" Text="Become A Member" OnClick="btn1_Click" /></p>
+                  <asp:Button CssClass="btn btn-primary btn-lg" ID="btn3" runat="server" Text="Become A Member" OnClick="btn1_Click" /></p>
             </div>
           </div>
         </div>

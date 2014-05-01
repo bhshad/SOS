@@ -41,7 +41,7 @@
             <li ><a href="C_ParticipatingSchools.aspx" style="word-spacing:normal">Participating Schools</a></li>
             <li><a href="C_News.aspx">News</a></li>
             <li><a href="C_Donate.aspx">Donate</a></li>
-            <li><a href="#" style="word-spacing:normal">Contact Us</a></li> <%--info@studentsopposingsubstances.com--%>
+            <li><a href="C_Contact.aspx" style="word-spacing:normal">Contact Us</a></li> <%--info@studentsopposingsubstances.com--%>
         </ul>
             </div>
             </nav>
@@ -52,7 +52,7 @@
                   <li ><a href="HomePage.aspx" >Home</a></li>
                   <li ><a href="C_AboutUs.aspx" >About Us</a></li>
                   <li><a href="C_BecomeAMember.aspx" >Become A Member</a></li>
-                  <li><a href="#">Success Stories</a></li>
+                  <li><a href="C_SuccessStories.aspx">Success Stories</a></li>
                   <li><a href="C_Mission.aspx" >Mission Statement</a></li>
                   <li><a href="C_SignIn.aspx" >Success Stories</a></li>
                 </ul>
@@ -61,7 +61,7 @@
              </div>
            </nav>
 
-    <div style="width:900px; margin-left:auto; margin-right:auto">
+    <div style="width:900px; margin-left:auto; margin-right:auto; min-height:400px">
        
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
@@ -100,7 +100,7 @@
                      </ul>
                     </asp:Panel>
                 </div>
-                <div class="pull-left well footerwell">
+                <div class="pull-left well footerwell" style="margin-right:0px">
                     <h2>Social Media</h2>
                      <br />
                     <div style="padding-left:10px">
