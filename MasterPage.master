@@ -35,7 +35,7 @@
 <body>
     <form id="form1" runat="server">
         <nav class="navbar navbar-default" role="navigation" style="padding-bottom:0px;margin-bottom:0px">
-            <a class="navbar-brand" href="HomePage.aspx">SOS - Students Opposing Substances</a>
+            <a class="navbar-brand" href="Default.aspx">SOS - Students Opposing Substances</a>
                <div class="pull-right" style="word-spacing:20px">
              <ul class="nav navbar-nav">
             <li ><a href="C_ParticipatingSchools.aspx" style="word-spacing:normal">Participating Schools</a></li>
@@ -49,7 +49,7 @@
             <div class="navbar-form navbar-left pull-left" >
               
                  <ul class="nav navbar-nav nav-tabs">
-                  <li ><a href="HomePage.aspx" >Home</a></li>
+                  <li ><a href="Default.aspx" >Home</a></li>
                   <li ><a href="C_AboutUs.aspx" >About Us</a></li>
                   <li><a href="C_BecomeAMember.aspx" >Become A Member</a></li>
                   <li><a href="C_SuccessStories.aspx">Success Stories</a></li>
@@ -73,7 +73,7 @@
                     <h2>About Us</h2>
                     <asp:Panel CssClass="panel-info" ID="Panel1" runat="server">
                         <ul>
-                        <li><a href="HomePage.aspx">Home</a></li>
+                        <li><a href="Default.aspx">Home</a></li>
                         <li><a href="C_AboutUs.aspx">About Us</a></li>
                         <li><a href="C_Mission.aspx">Mission Statement</a></li>
                         <li><a href="C_ParticipatingSchools.aspx">Participating Schools</a></li>
