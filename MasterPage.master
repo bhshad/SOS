@@ -10,29 +10,92 @@
     <title></title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+    <script src="js/jquery-1.11.0.js"></script>
     <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
     <link href="bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet" />
 
 </head>
 <body>
     <form id="form1" runat="server">
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default" role="navigation" style="padding-bottom:0px;margin-bottom:0px">
             <a class="navbar-brand" href="HomePage.aspx">SOS - Students Opposing Substances</a>
-        <div class="pull-right">
+        <div class="pull-right" style="word-spacing:10px">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="Donate.aspx">Donate</a></li>
-            <li><a href="soscontract.pdf">Contract</a></li>
-            <li><a href="JoinIn.aspx">Become a Member</a></li>
-            <li><a href="mailto:info@studentsopposingsubstances.com">Contact Us</a></li>
+            <li class="active"><a href="#">Participating Schools</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="Donate.aspx">Donate</a></li>
+            <li><a href="#">Contact Us</a></li> <%--info@studentsopposingsubstances.com--%>
         </ul>
             </div>
             </nav>
+        <nav class="navbar navbar-default" style="margin-top:0px; padding-top:0px">
+            <div class="navbar-form navbar-left pull-left" >
+            <ul class="nav nav-tabs">
+  <li class="active"><a href="AboutUs.aspx">About Us</a></li>
+  <li><a href="#">Become A Member</a></li>
+  <li><a href="#">Success Stories</a></li>
+                 <li><a href="#">Mission Statement</a></li>
+                 <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      Your Profile <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Modify Profile</a></li>
+    </ul>
+  </li>
+</ul>
+           </div>
+            </nav>
 
-    <div>
+    <div style="width:900px; margin-left:auto; margin-right:auto">
        
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
     </div>
+
+        <footer class="panel-footer">
+            <div style="width:900px; margin-left:auto; margin-right:auto">
+              <div class="pull-left" style="padding-right:50px">
+                    <h2>About Us</h2>
+                    <asp:Panel CssClass="panel-info" ID="Panel1" runat="server">
+                        <ul>
+                        <li><a href="AboutUs.aspx">About Us</a></li>
+                        <li><a href="Mission.aspx">Mission Statement</a></li>
+                        <li><a href="ParticipatingSchools.aspx">Participating Schools</a></li>
+                        
+                    </ul>
+                    </asp:Panel>
+                </div>
+                <div class="pull-left" style="padding-right:50px">
+                    <asp:Panel CssClass="panel-info" ID="Panel2" runat="server">
+                    <h2>Get Involved</h2>
+                    <ul class="panel-group">
+                        <li><a href="BecomeAMember.aspx">Become A Member</a></li>
+                        <li><a href="Donate.aspx">Donate</a></li>
+                        <li><a href="Volunteer.aspx">Volunteer</a></li>
+                        
+                    </ul>
+                        </asp:Panel>
+                    </div>
+                <div class="pull-left" style="padding-right:50px">
+                    <h2>SOS News</h2>
+                    <asp:Panel CssClass="panel-info" ID="Panel4" runat="server">
+                        <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="Donate.aspx">Donate</a></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    </asp:Panel>
+                </div>
+                <div class="pull-left">
+                    <h2>Social Media</h2>
+                </div>
+            </div>
+            
+        </footer>
+
     </form>
 </body>
 </html>
