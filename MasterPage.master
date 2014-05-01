@@ -46,11 +46,11 @@
               
                  <ul class="nav nav-pills">
                   <li ><a href="HomePage.aspx" >Home</a></li>
-                  <li   ><a href="C_AboutUs.aspx" >About Us</a></li>
-                  <li><a href="C_BecomeAMember.aspx" data-toggle="tab">Become A Member</a></li>
-                  <li><a href="#" data-toggle="tab">Success Stories</a></li>
-                  <li><a href="C_Mission.aspx" data-toggle="tab">Mission Statement</a></li>
-                  <li><a href="C_SignIn.aspx" data-toggle="tab">Success Stories</a></li>
+                  <li ><a href="C_AboutUs.aspx" >About Us</a></li>
+                  <li><a href="C_BecomeAMember.aspx" >Become A Member</a></li>
+                  <li><a href="#">Success Stories</a></li>
+                  <li><a href="C_Mission.aspx" >Mission Statement</a></li>
+                  <li><a href="C_SignIn.aspx" >Success Stories</a></li>
                 </ul>
                
 
