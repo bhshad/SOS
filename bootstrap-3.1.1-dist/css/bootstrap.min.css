@@ -5182,10 +5182,6 @@ a.list-group-item-danger {
 
 .panel-body {
     box-shadow: 0 1px 1px rgba(0,0,0,.5);
-    border-width:2px;
-    border:thick;
-    border-bottom:thick;
-    border-top-color:#d9230f;
 }
 
 .panel-heading {

@@ -8,7 +8,7 @@
     <div class="center-block" style="text-align: center; width: 100%">
     <h1>Donate!</h1>
         <br />
-        <asp:Panel CssClass="panel panel-body" ID="Panel1" runat="server"  style="background-color: lightgray; margin-left: 50px; margin-right:50px; text-align: left">
+        <asp:Panel CssClass="panel panel-body" ID="Panel1" runat="server"  >
             Help support SOS by donating to our cause!</asp:Panel>
         <br />
         <br />
